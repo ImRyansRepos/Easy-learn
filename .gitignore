@@ -1,0 +1,59 @@
+# --------------------
+# Environment files
+# --------------------
+.env
+.env.*
+!.env.example
+
+# --------------------
+# Node.js
+# --------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --------------------
+# OS files
+# --------------------
+.DS_Store
+Thumbs.db
+
+# --------------------
+# Editor / IDE
+# --------------------
+.vscode/
+.idea/
+*.swp
+
+# --------------------
+# Build / temp files
+# --------------------
+dist/
+build/
+coverage/
+
+# --------------------
+# Logs
+# --------------------
+logs/
+*.log
+
+# --------------------
+# PDF / generated output
+# --------------------
+*.pdf
+
+# --------------------
+# Chrome extension
+# --------------------
+# Ignore packed extension files
+*.crx
+*.pem
+
+# --------------------
+# Misc
+# --------------------
+.cache/
+.tmp/
